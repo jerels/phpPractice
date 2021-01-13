@@ -20,23 +20,24 @@
         $age = 30;
         $gpa = 3.8;
         $isHappy = true;
+        $break = "<br>";
         echo strtolower($phrase);
-        echo "<br>";
+        echo $break;
         echo strtoupper($phrase);
-        echo "<br>";
+        echo $break;
         echo strlen($phrase);
-        echo "<br>";
+        echo $break;
         echo $phrase[0];
-        echo "<br>";
+        echo $break;
         $phrase[0] = "B";
         echo $phrase;
-        echo "<br>";
+        echo $break;
         echo $phrase[0];
-        echo "<br>";
+        echo $break;
         echo str_replace('Bo', 'Jerel', $phrase);
-        echo "<br>";
+        echo $break;
         echo $phrase;
-        echo "<br>";
+        echo $break;
         echo substr($phrase, 9, 3);
     ?>
 </body>
