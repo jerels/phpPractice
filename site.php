@@ -8,6 +8,8 @@
 <body>
     <?php
         echo("<h1>Jerel's Site</h1>");
+        echo '<hr>';
+        echo '<p>This is my site</p>';
     ?>
 </body>
 </html>
