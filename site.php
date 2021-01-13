@@ -14,6 +14,13 @@
         echo "He was $charAge years old <br>";
         echo "He really liked the name $charName <br>";
         echo "But didn't like being $charAge <br>";
+
+
+        $phrase = "To be or not to be";
+        $age = 30;
+        $gpa = 3.8;
+        $isHappy = true;
+
     ?>
 </body>
 </html>
